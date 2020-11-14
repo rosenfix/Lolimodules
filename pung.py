@@ -11,7 +11,7 @@ def register(cb):
 class PingerMod(loader.Module):
 	"""более точный пинг"""
 
-	strings = {'name': 'PingerХуингер'}
+	strings = {'name': 'Пингер'}
 
 	def __init__(self):
 		self.name = self.strings['name']
@@ -25,7 +25,7 @@ class PingerMod(loader.Module):
 
 	async def pingcmd(self, message):
 		"""пингует"""
-		a = 5
+		a = 1
 		r = utils.get_args(message)
 		if r and r[0].isdigit():
 			a = int(r[0])
