@@ -11,7 +11,7 @@ def register(cb):
 class PingerMod(loader.Module):
 	"""более точный пинг"""
 
-	strings = {'name': 'Пингер'}
+	strings = {'name': 'Pinger'}
 
 	def __init__(self):
 		self.name = self.strings['name']
@@ -39,6 +39,6 @@ class PingerMod(loader.Module):
 			ping_data.append(duration)
 			ping_msg.append(msg)
 		ping = sum(ping_data) / len(ping_data)
-		await message.edit(f"[ok] {str(ping)[0:5]}ms")
+		await message.edit(f"[ {str(ping)[0:5]}ms") ]
 		for i in ping_msg:
 			await i.delete()
