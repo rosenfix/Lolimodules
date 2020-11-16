@@ -14,7 +14,7 @@ def register(cb):
 
 
 @loader.tds
-class DistortNoApiMod(loader.Module):
+class Distort(loader.Module):
     """distorting images"""
     strings = {
         "name": "Distort"
@@ -24,8 +24,8 @@ class DistortNoApiMod(loader.Module):
         self.client = client
 
     @loader.sudo
-    async def distortcmd(self, message):
-        """.distort <reply to photo>
+    async def dcmd(self, message):
+        """.d <reply to photo>
         .d im
         .d 50
         .d 50 im
