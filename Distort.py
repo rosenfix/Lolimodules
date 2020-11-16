@@ -6,9 +6,8 @@ from telethon.tl.types import DocumentAttributeFilename
 import logging
 from wand.image import Image
 from PIL import Image as IM
-# https://t.me/KeyZenD
-# https://t.me/govnocodules
-# https://t.me/DneZyeK
+# https://t.me/rosenfix
+#Я мать твою ебал пупс
 logger = logging.getLogger(__name__)
 
 def register(cb):
@@ -19,7 +18,7 @@ def register(cb):
 class DistortNoApiMod(loader.Module):
     """distorting images"""
     strings = {
-        "name": "DistortNoApi"
+        "name": "Distort"
     }
 
     async def client_ready(self, client, db):
@@ -27,11 +26,11 @@ class DistortNoApiMod(loader.Module):
 
     @loader.sudo
     async def distortcmd(self, message):
-        """.distort <reply to photo>
-        .distort im
-        .distort 50
-        .distort 50 im
-        .distort im 50
+        """.d <reply to photo>
+        .d im
+        .d 50
+        .d 50 im
+        .d im 50
         im => кидает стикеры как фото
         50 => (от 0 до дохуя) процент сжатия"""
         if message.is_reply:
