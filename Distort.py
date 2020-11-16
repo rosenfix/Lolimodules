@@ -26,11 +26,11 @@ class DistortNoApiMod(loader.Module):
 
     @loader.sudo
     async def distortcmd(self, message):
-        """.d <reply to photo>
-        .d im
-        .d 50
-        .d 50 im
-        .d im 50
+        """.distort <reply to photo>
+        .distort im
+        .distort 50
+        .distort 50 im
+        .distort im 50
         im => кидает стикеры как фото
         50 => (от 0 до дохуя) процент сжатия"""
         if message.is_reply:
