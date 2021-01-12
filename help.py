@@ -14,11 +14,11 @@ class HelpMod(loader.Module):
     strings = {"name": "Help",
                "bad_module": '<b>Модуля</b> "<code>{}</code>" <b>нет!</b>',
                "single_mod_header": "<b>Инфа о</b> <u>{}</u>:\n",
-               "single_cmd": "\n➔ {}\n",
+               "single_cmd": "\n ➪ {}\n",
                "undoc_cmd": "...",
                "all_header": '<b>Список из <a href="@rosenfix">{}</a> доступных модулей</b>:\n',
-               "mod_tmpl": '\n•<a href="tg://user?id={}">{}</a>',
-               "first_cmd_tmpl": " ➔ 〘 {}",
+               "mod_tmpl": '\n •<a href="tg://user?id={}">{}</a>',
+               "first_cmd_tmpl": " ➪ 〘 {}",
                "cmd_tmpl": " | {}",}
 
     @loader.unrestricted
