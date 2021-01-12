@@ -17,7 +17,7 @@ class HelpMod(loader.Module):
                "single_cmd": "\n➪{}\n",
                "undoc_cmd": "...",
                "all_header": '<b>Список из <a href="@rosenfix">{}</a> доступных модулей</b>:\n',
-               "mod_tmpl": '\n• <a href="tg://user?id={}">{}</a>',
+               "mod_tmpl": '\n•<a href="tg://user?id={}">{}</a>',
                "first_cmd_tmpl": " ➪〘 {}",
                "cmd_tmpl": " | {}",}
 
