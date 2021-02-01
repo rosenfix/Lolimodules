@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 class drooxHuotesMod(loader.Module):
 	"""ФЕЙКОВЫЕ КВОТЕСЫ ОТ @DROOX (ну и спай там идею придумал, хэш надыбал, вдохновил на создание короче)"""
 	strings = {
-		"name": "drooxHuotes",
+		"name": "FakeQuotes",
 		"silent_processing_cfg_doc": ("Process quote "
 		                              "silently(mostly"
 		                              " w/o editing)"),
