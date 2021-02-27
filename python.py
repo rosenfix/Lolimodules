@@ -37,7 +37,7 @@ class PythonMod(loader.Module):
                                  "\n\n<b>Ошибка:</b>\n<code>{}</code>"),
                "execute_fail": ("<code>exec:</code> <b>Не удалось выполнить выражение:</b>\n<code>{}</code>"
                                 "\n\n<b>Ошибка:</b>\n<code>{}</code>"),
-               "n_protect": "НОМЕР_СКРЫТ"}
+               "n_protect": "ХУЙ ТЕБЕ А НЕ НОМЕР"}
 
     async def client_ready(self, client, db):
         self.client = client
