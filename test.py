@@ -44,8 +44,8 @@ async def logstest(conv):
 @loader.tds
 class TestMod(loader.Module):
     """Тестирование бота"""
-    strings = {"name": "Тестер",
-               "pong": "<code>Понг: {}ms</code>",
+    strings = {"name": "Tester",
+               "pong": "<code>Pong: {}ms</code>",
                "bad_loglevel": ("<b>Неверный лог-уровень. Пожалуйста, обратитесь к </b>"
                                 "<a href='https://docs.python.org/3/library/logging.html#logging-levels'>"
                                 "документации</a><b>.</b>"),
