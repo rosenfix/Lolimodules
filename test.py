@@ -64,7 +64,7 @@ class TestMod(loader.Module):
     async def pingcmd(self, message):
         """Измеряет время неообходимое для отправки сообщения"""
         start = datetime.now()
-        msg = await utils.answer(message, "Измеряю...")
+        msg = await utils.answer(message, "<b>Checking...</b>")
         end = datetime.now()
         ms = (end - start).microseconds / 1000
         await asyncio.sleep(0.2)
